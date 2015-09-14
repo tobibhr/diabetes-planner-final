@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.diabetesplanner.MainActivity" >
+    <item android:id="@+id/turn_off" android:title="@string/turn_off"></item>
+    <item android:id="@+id/enter_location" android:title="@string/enter_location"></item>
+    <item android:id="@+id/select_model" android:title="@string/select_model"></item>
+    <item android:id="@+id/see_locations" android:title="@string/show_locations"></item>
+    <item android:id="@+id/settings" android:title="@string/settings"></item>
+</menu>

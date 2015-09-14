@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/tobibhr/StudioProjects/Diabetes-Planner/DiabetesPlanner/libs/achartengine-1.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="9932e3fb9fbe54e80873e77f72a99f79e33b3250">
+        <dex dex="/Users/tobibhr/StudioProjects/Diabetes-Planner/DiabetesPlanner/build/intermediates/pre-dexed/debug/achartengine-1.1.0-7a5c96ac81d6aba2450cb8d50eedacd02159423f.jar" />
+    </item>
+    <item
+        jar="/Users/tobibhr/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="/Users/tobibhr/StudioProjects/Diabetes-Planner/DiabetesPlanner/build/intermediates/pre-dexed/debug/support-v4-19.1.0-c2bfa064dd3425a8beeb92861147a5176205bcc8.jar" />
+    </item>
+    <item
+        jar="/Users/tobibhr/StudioProjects/Diabetes-Planner/DiabetesPlanner/libs/weka.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="393389a44a4453e8963c809675213d60de3dad04">
+        <dex dex="/Users/tobibhr/StudioProjects/Diabetes-Planner/DiabetesPlanner/build/intermediates/pre-dexed/debug/weka-7ce0d403da1be367c7bcde7bb693e65d1d934260.jar" />
+    </item>
+    <item
+        jar="/Users/tobibhr/StudioProjects/Diabetes-Planner/DiabetesPlanner/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28">
+        <dex dex="/Users/tobibhr/StudioProjects/Diabetes-Planner/DiabetesPlanner/build/intermediates/pre-dexed/debug/classes-2121341a469259f040a0543077d5e065088b18c3.jar" />
+    </item>
+    <item
+        jar="/Users/tobibhr/StudioProjects/Diabetes-Planner/DiabetesPlanner/libs/commons-math3-3.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a85dc3aa929de625606270ae69a343cda69b7670">
+        <dex dex="/Users/tobibhr/StudioProjects/Diabetes-Planner/DiabetesPlanner/build/intermediates/pre-dexed/debug/commons-math3-3.3-44e0d8d1d294c00e7f19914adcd52f6b8a02b895.jar" />
+    </item>
+
+</items>

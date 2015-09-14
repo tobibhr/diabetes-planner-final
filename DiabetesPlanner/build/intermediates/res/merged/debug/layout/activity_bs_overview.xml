@@ -1,0 +1,124 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="gui.BsOverview" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:orientation="horizontal" >
+
+                <TextView
+            android:id="@+id/tvEnterBsHC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/enterBs" />
+
+        <EditText
+            android:id="@+id/tfBsEntry"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/bsEntryHint"
+            android:inputType="number" />
+
+                <TextView
+            android:id="@+id/tvUnitBs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/unitBs" 
+           />
+
+
+    </LinearLayout>
+    
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:orientation="horizontal" >
+
+                <TextView
+            android:id="@+id/tvEnterCHC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/enterC" />
+
+        <EditText
+            android:id="@+id/tfCEntry"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/bsEntryHint"
+            android:inputType="number" />
+
+                <TextView
+            android:id="@+id/tvCUnit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/unitC" />
+
+
+    </LinearLayout>
+    
+            <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:orientation="horizontal" >
+
+                <TextView
+            android:id="@+id/tvEnterIHC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/enterI" />
+
+        <EditText
+            android:id="@+id/tfIEntry"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/bsEntryHint"
+            android:inputType="number" />
+
+                <TextView
+                    android:id="@+id/tvUnitI"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp"
+                    android:text="@string/unitI" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recent Values:"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ListView
+        android:id="@+id/lastEntriesList"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+    </ListView>
+
+    <Button
+        android:id="@+id/button_map"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_dark"
+        android:onClick="backToMain"
+        android:text="Back to Main"
+        android:textStyle="normal" />
+
+</LinearLayout><!-- From: file:/Users/tobibhr/StudioProjects/Diabetes-Planner/DiabetesPlanner/src/main/res/layout/activity_bs_overview.xml -->

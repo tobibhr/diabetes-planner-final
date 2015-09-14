@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.diabetesplanner"
+    android:descendantFocusability="blocksDescendants" >
+
+    <TextView
+        android:id="@+id/tvActivitiesHC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recent Activities:"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ListView
+        android:id="@+id/activityList"
+        android:layout_width="fill_parent"
+        android:layout_height="267dp"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_weight="0.18" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnBloodsugar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:background="@android:color/holo_blue_dark"
+            android:importantForAccessibility="yes"
+            android:onClick="goToBsOverview"
+            android:text="Blood Sugar Entry" />
+
+        <Button
+            android:id="@+id/btnAddAct"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_blue_dark"
+            android:importantForAccessibility="yes"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"            
+            android:onClick="goToAddActivity"
+            android:text="Add Activity" />
+        
+        <Button
+            android:id="@+id/btnCharts"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_blue_dark"
+            android:importantForAccessibility="yes"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"   
+            android:onClick="goToChartView"
+            android:text="Show Charts" />
+        
+                <Button
+            android:id="@+id/btnChartWeek"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_blue_dark"
+            android:importantForAccessibility="yes"
+            android:onClick="goToWeekChart"
+            android:text="Show WeekChart" />
+
+    </LinearLayout>
+    
+   <!-- dummy comment -->
+
+</LinearLayout><!-- From: file:/Users/tobibhr/StudioProjects/Diabetes-Planner/DiabetesPlanner/src/main/res/layout/activity_main.xml -->

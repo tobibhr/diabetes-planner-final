@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Diabetes Planner</string>
+    <string name="enterBs">Bloodsugar:</string>
+    <string name="bsEntryHint">enter current lvl</string>
+    <string name="unitBs">mg/dl</string>
+    <string name="enterC">Carbohydrates:</string>
+    <string name="cEntryHint">enter current lvl</string>
+    <string name="unitC">KE</string>
+    <string name="enterI">Insulin:</string>
+    <string name="iEntryHint">enter current lvl</string>
+    <string name="unitI">doses</string>
+
+    <!-- Menu options -->
+    <string name="action_settings">Settings</string>
+    <string name="turn_off">Turn Off</string>
+    <string name="select_model">Select Model</string>
+    <string name="enter_location">Enter Location</string>
+    <string name="show_locations">Show Locations</string>
+    <string name="settings">Settings</string>
+    
+    <string name="title_activity_overview">Overview</string>
+    <string name="title_activity_bs_overview">BsOverview</string>
+    <string name="title_activity_add">AddActivity</string>
+    <string name="title_activity_chart">ChartActivity</string>
+    <string name="title_activity_chart_compare">ChartCompare</string>
+    <string name="hello_world">Hello World</string>
+
+    <string-array name="activities">
+        <item>Sitting</item>
+        <item>Running</item>
+        <item>Walking</item>
+        <item>Standing</item>
+        <item>Climbing (Up)</item>
+        <item>Climbing (Down)</item>
+        <item>Recumbency</item>
+        <item>Not Specified</item>
+        <item>Unknown</item>
+    </string-array>
+    
+    <string-array name="bsUnits">
+        <item>mg/dl</item>
+        <item>mmol/l</item>
+    </string-array>
+    
+     <string-array name="carbUnits">
+        <item>KE</item>
+        <item>BE</item>
+    </string-array>
+
+    <string name="title_activity_location_list">LocationList</string>
+    <string name="title_activity_settings">Settings</string>
+    
+    <string name="title_carbChange">Carb Unit:</string>
+    <string name="title_bsChange">Blood Sugar Unit:</string>
+
+    <string name="title_activity_adapt_location">AdaptLocation</string>
+
+</resources>

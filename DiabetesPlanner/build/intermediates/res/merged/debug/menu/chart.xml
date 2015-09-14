@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.chartsexperiment.ChartActivity" >
+
+
+
+</menu>
+<!-- From: file:/Users/tobibhr/StudioProjects/Diabetes-Planner/DiabetesPlanner/src/main/res/menu/chart.xml -->
